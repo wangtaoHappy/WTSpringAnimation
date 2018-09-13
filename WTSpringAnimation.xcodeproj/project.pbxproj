@@ -102,7 +102,7 @@
 				TargetAttributes = {
 					934604D7208EC47200DA1457 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -278,12 +278,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KN6539LSM;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y4FK8UXDXW;
 				INFOPLIST_FILE = WTSpringAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wangtao.WTSpringAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bdc12bb6-856e-4b7d-b6fb-79cc54f41bb2";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -292,12 +294,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KN6539LSM;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y4FK8UXDXW;
 				INFOPLIST_FILE = WTSpringAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wangtao.WTSpringAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bdc12bb6-856e-4b7d-b6fb-79cc54f41bb2";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
